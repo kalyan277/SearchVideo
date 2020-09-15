@@ -11,13 +11,13 @@ export default class SearchBar extends Component {
           <div className="ui segment">
             <form onSubmit={this.onFormSubmit} className="ui form">
               <div className="field">
-                <label style={{ marginLeft:"40%" }}>
-                  Image Search
+                <label style={{ marginLeft:"45%" }}>
+                  Video Search
                 </label>
                 <input
                   type="text"
                   value={this.state.term}
-                  placeholder="Search An Image"
+                  placeholder="Search An Video"
                   onChange={(e) => this.setState({ term: e.target.value })}
                 ></input>
                 <div style={{ display: "grid", marginTop: "10px" }}>
