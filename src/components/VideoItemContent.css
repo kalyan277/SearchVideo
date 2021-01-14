@@ -9,7 +9,7 @@
 }
 
 
-@media (min-height: 768px) {
+@media only screen and (max-width: 767px)
 .video-search-container{
 width: 135%;
 }
