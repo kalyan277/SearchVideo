@@ -9,7 +9,7 @@ export default class SearchBar extends Component {
     }
     render() {
         return (
-          <div className="ui segment">
+          <div className="searchcontainer ui segment">
             <form onSubmit={this.onFormSubmit} className="ui form">
               <div className="field">
                 <label style={{ marginLeft:"45%" }}>
