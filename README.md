@@ -6,7 +6,7 @@ Css:-Semantic UI
 
 Axios :-Third Party Package is used to make network call
 
-Youtube APi is used for fetching Data
+Youtube API is used for fetching Data
 
 This Application Basically Deals with making a network call from youtube api.
 
